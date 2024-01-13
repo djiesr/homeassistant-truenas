@@ -26,7 +26,7 @@ class TrueNASUpdateEntityDescription(UpdateEntityDescription):
 
 SENSOR_TYPES: tuple[TrueNASUpdateEntityDescription, ...] = (
     TrueNASUpdateEntityDescription(
-        key="system_update",
+        key="system_truenas_update",
         name="Update",
         ha_group="System",
         title="TrueNAS",
