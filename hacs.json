@@ -1,5 +1,5 @@
 {
-    "name": "TrueNAS",
+    "name": "TrueNAS Patch",
     "homeassistant": "2023.9.0",
     "render_readme": false,
     "zip_release": true,
