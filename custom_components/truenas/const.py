@@ -1,8 +1,5 @@
 """Constants used by the TrueNAS integration."""
-import voluptuous as vol
-
 from homeassistant.const import Platform
-from homeassistant.helpers import config_validation as cv
 
 PLATFORMS = [
     Platform.SENSOR,
@@ -65,8 +62,7 @@ SERVICE_JAIL_RESTART = "jail_restart"
 SCHEMA_SERVICE_JAIL_RESTART = {}
 
 SERVICE_VM_START = "vm_start"
-SERVICE_VM_START_OVERCOMMIT = "overcommit"
-SCHEMA_SERVICE_VM_START = {vol.Optional(SERVICE_VM_START_OVERCOMMIT): cv.boolean}
+SCHEMA_SERVICE_VM_START = {}
 SERVICE_VM_STOP = "vm_stop"
 SCHEMA_SERVICE_VM_STOP = {}
 
