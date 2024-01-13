@@ -35,6 +35,7 @@ SENSOR_TYPES: tuple[TrueNASUpdateEntityDescription, ...] = (
         data_name="",
         data_uid="",
         data_reference="",
+        entity_id="update.truenas_update",
     ),
 )
 
